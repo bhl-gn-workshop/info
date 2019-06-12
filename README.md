@@ -61,15 +61,14 @@ The [gnfinder](https://github.com/gnames/gnfinder) tool uses heuristic and Bayes
 
     gnfinder find file1.txt -c -l eng -s "4,12" > file2.json
 
-Its functionality is also exposed as gRPC service. An example client for the service is presented as a [gnfinder Ruby gem](https://gnrd.globalnames.org/:w
-)
+Its functionality is also exposed as gRPC service. An example client for the service is presented as a [gnfinder Ruby gem](https://gnrd.globalnames.org/)
 
 There is also [gnrd](https://gnrd.globalnames.org/) web-application that allows to find names in a variety of formats -- MS World documednts, spreadsheets,
 PDFs, images, plain texts.
 
 ### gnindex
 
-A [web-wervice](https://bit.ly/2AZJngf) that uses GraphQL API to resolve incoming names against a large variety of datasets. This service is used by gnfinder for name reconciliation and resolution
+A [web-service](https://bit.ly/2AZJngf) that uses GraphQL API to resolve incoming names against a large variety of datasets. This service is used by gnfinder for name reconciliation and resolution
 
 ### gnparser
 
@@ -79,4 +78,4 @@ The [gnparser tool](https://parser.globalnames.org/) is a library that breaks sc
 
 The [bhlindex](https://github.com/gnames/bhlindex) project uses all tools mentioned above to find and verity scientific names in Biodiversity Heritage Library.
 
-The tool currently also includes a service that is able to create a gRPC stream of BHL data and name occurences to a remote user. An experimental stream currently resides at [http://bhlrpc.globalnames.org](http://bhlrpc.globalnames.org).
+The tool currently also includes a service that is able to create a gRPC stream of BHL data and name occurrences to a remote user. An experimental stream currently resides at [http://bhlrpc.globalnames.org](http://bhlrpc.globalnames.org).
