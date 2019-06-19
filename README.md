@@ -80,3 +80,9 @@ The [gnparser tool](https://parser.globalnames.org/) is a library that breaks sc
 The [bhlindex](https://github.com/gnames/bhlindex) project uses all tools mentioned above to find and verity scientific names in Biodiversity Heritage Library.
 
 The tool currently also includes a service that is able to create a gRPC stream of BHL data and name occurences to a remote user. An experimental stream currently resides at [http://bhlrpc.globalnames.org](http://bhlrpc.globalnames.org).
+
+## Outcomes
+
+### Hackathon pitches 
+
+
