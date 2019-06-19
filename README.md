@@ -85,4 +85,6 @@ The tool currently also includes a service that is able to create a gRPC stream 
 
 ### Hackathon pitches 
 
+* [Images of the hackathon pitches](media/pitches), and the [preceeding exercise](media/stickies) that gathered ideas.
+
 
